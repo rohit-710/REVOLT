@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import {useEffect, useState} from 'react';
 import axios from 'axios';
-import Web3Modal from 'web3modal';
+import Web3Modal from "web3modal";
 
 import {
     nftmarketaddress, nftaddress
@@ -9,7 +9,7 @@ import {
 
 import NFT from '../artifacts/contracts/NFT.sol/NFTProperty.json';
 import Market from '../artifacts/contracts/NFTMarket.sol/NFTPropertyMarket.json';
-import { network } from 'hardhat';
+
 
 export default function MyProperty() {
     const [nfts, setNfts] = useState([]);

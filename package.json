@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser" :{
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
@@ -22,7 +27,7 @@
     "hardhat": "^2.9.3",
     "httpclient": "^0.1.0",
     "ipfs-http-client": "^50.1.2",
-    "next": "12.1.4",
+    "next": "^12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "web3modal": "^1.9.6"
