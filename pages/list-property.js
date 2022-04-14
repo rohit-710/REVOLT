@@ -16,8 +16,8 @@ import {
     nftaddress, nftmarketaddress
 } from '../config.js';
 
-import NFT from '../artifacts/contracts/NFT.sol/NFTProperty.json';
-import Market from '../artifacts/contracts/NFTMarket.sol/NFTPropertyMarket.json';
+import NFT from '../utils/NFTProperty.json';
+import Market from '../utils/NFTPropertyMarket.json';
 
 export default function CreateItem () {
     const [fileUrl, setFileUrl] = useState(null);
