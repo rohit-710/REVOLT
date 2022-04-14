@@ -8,11 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "browser" :{
-    "fs": false,
-    "path": false,
-    "os": false
-  },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
@@ -30,7 +25,9 @@
     "next": "^12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "web3modal": "^1.9.6"
+    "web3modal": "^1.9.6",
+    "remark": "13.0.0",
+    "remark-html": "13.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
