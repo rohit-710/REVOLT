@@ -1,6 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
+require("dotenv").config();
 const fs = require("fs");
-const privateKey = fs.readFileSync(".secret").toString();
+const privateKey = process.env.Private_Key;
 const projectID = "41c09f593cdf478fa7208e63e018b2c5"
 
 
