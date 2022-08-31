@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# REVOLT 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Revolt stands for Real Estate ~ Virtual Ownership ~ Land Transfer. I tried to build a Real Estate marketplace using Blockchain. Here each piece of land or property will be an NFT that can be bought and sold. I believe this takes the meaning of the word ownership to its true extent. This also allows people to purchase properties without worrying about doing tons of paperwork or find a broker/agent to help you purchase it. I also thought about scenarios like wars and refugee crises, for example when the Taliban took over Afghanisthan, they seized people's lands and completely erased the records of their ownership off the government records. This would never be the case if it is hosted on the blockchain since everything on the Blockchain is public and immutable. I built it using Solidity, Hardhat, NextJS and deployed it to the Polygon Mumbai Testnet.
